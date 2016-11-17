@@ -1,0 +1,63 @@
+.item__info__ul-li-icon {
+  &:hover {
+    .item__info-ingredients {
+     display: block;
+   }
+ }
+}
+
+
+.item__info-ingredients {
+  display: none;
+  position: absolute;
+  right: 100%;
+  margin-right: -500px;
+  margin-top: -110px;
+  max-width: 400px;
+  max-height: 285px;
+  padding: 55px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: @white;
+  background-color: @white;
+  opacity: 0.922;
+  box-shadow:  0px 0px 15px rgba(0, 0, 0, .2);
+  z-index: 1000;
+  transition: @transition;
+
+  &:before {
+    position: absolute;
+    margin-top: 3px;
+    left: -60px;
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-left: 40px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 30px solid transparent;
+  }
+
+
+}
+
+.item__info-ingredients-table-tr {
+  max-width: 150px;
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: @gray;
+  line-height: 2.486;
+  text-align: left;
+}
+
+.item__info-ingredients-table-th {
+  max-width: 150px;
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: @gray;
+  line-height: 2.486;
+  text-align: left;
+  padding: 5px;
+}

@@ -1,0 +1,212 @@
+.container {
+  position: relative;
+}
+
+.sweet-cupcake {
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    color-stop(0.26, #DF4141),
+    color-stop(0.75, #A4161B)
+    );
+  background-image: -o-linear-gradient(right top, #DF4141 26%, #A4161B 75%);
+  background-image: -moz-linear-gradient(right top, #DF4141 26%, #A4161B 75%);
+  background-image: -webkit-linear-gradient(right top, #DF4141 26%, #A4161B 75%);
+  background-image: -ms-linear-gradient(right top, #DF4141 26%, #A4161B 75%);
+  background-image: linear-gradient(to right top, #DF4141 26%, #A4161B 75%);
+}
+
+.sweet-cupcake__slider {
+  &:before {
+    position: absolute;
+    content: "Пироженки";
+    top: 32%;
+    left: 1%;
+    opacity: 0.2;
+    font-size: 180px;
+    color: @white;
+    line-height: 1.072;
+    text-align: left;
+  }
+}
+
+.sweet-cupcake__slider__ul {
+  margin-right: -80px;
+
+}
+
+.sweet-cupcake__slider__ul-item {
+
+}
+
+.sweet-cupcake__slider__ul-item-info {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  max-width: 150px;
+  padding: 350px 15px 0px 15px;
+  margin-right: 80px;
+}
+
+.item__info__ul {
+	
+
+}
+
+.item__info__ul-li {
+	display: inline-block;
+	text-align: center;
+	text-align: center;
+}
+
+.item__info__ul-li-icon {
+	display: inline-block;
+	margin: 0px 50px 25px 50px;
+  width: 44px;
+  height: 42px;
+  z-index: 500;
+  transition: @transition;
+  background: url('../img/section1/spryte-icon.png') -168px 0 no-repeat;
+
+  &:hover {
+   background: url('../img/section1/spryte-icon-hover.png') -168px 0 no-repeat;
+ }
+}
+
+.item__info__ul-li-icon-links {
+    display: block;
+    position: relative;
+    width: 44px;
+    height: 42px;
+    z-index: 500;
+    transition: 0.3s;
+    background: url(../img/section1/spryte-icon.png) -168px 0 no-repeat;
+
+  &:hover {
+    .item__info__ul-li-icon:hover {
+     background: url('../img/section1/spryte-icon-hover.png') -168px 0 no-repeat;
+   }
+ }
+}
+
+.item__info__ul-li__ingredients {
+ font-size: 15px;
+ font-family: "Arial";
+ color: @white;
+ line-height: 1.482;
+ text-align: left;
+ margin-bottom: 80px;
+}
+
+.item__info__ul-li__period {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgba(255, 255, 255, 0.278);
+  line-height: 1.521;
+  text-align: center;
+}
+
+.item__info__ul-li__hours {
+  font-size: 24px;
+  color: @white;
+  line-height: 1.697;
+  text-align: center;
+}
+
+.sweet-cupcake__slider__ul-item-cake {
+  display: inline-block;
+  padding-top: 130px;
+  margin-right: 80px;
+  max-width: 560px;
+  font-size: 184px;
+  color: @white;
+  line-height: 1.082;
+  text-align: center;
+  vertical-align: top;
+}
+
+.sweet-cupcake__slider__ul-item-cake-pic {
+ position: relative;
+ z-index: 999;
+}
+
+.sweet-cupcake__slider__ul-item-description {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 180px;
+  max-width: 380px;
+
+}
+
+.sweet-cupcake__slider__ul-item-description-title {
+ display: inline-block;
+ margin-right: 25px;
+ font-size: 72px;
+ color: @white;
+ line-height: 1.072;
+ text-align: left;
+ margin-bottom: 35px;
+}
+
+
+.sweet-cupcake__slider__ul-item-description-paragraf {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Arial";
+  color: @white;
+  line-height: 1.482;
+  text-align: left;
+  margin-bottom: 35px;
+  max-width: 350px;
+}
+
+.sweet-cupcake__slider__ul-item-description-price {
+ display: inline-block;
+ margin-right: 25px;
+ font-size: 72px;
+ color: @white;
+ line-height: 1.072;
+ text-align: left;
+} 
+
+.weet-cupcake__slider__ul-item-description-paragraf-order {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.sweet-cupcake__slider__ul-item-description-button {
+	display: inline-block;
+	vertical-align: text-bottom;
+  max-width: 110px;
+  max-height: 42px;
+  padding: 15px 20px;
+  background: @orange;
+  border-radius: 17px;
+  transition: @transition;
+
+  &:hover {
+   background: @black-orange;
+
+   .sweet-cupcake__slider__ul-item-description-butto-link{
+     color: @orange;
+   }
+ }
+}
+
+.sweet-cupcake__slider__ul-item-description-butto-link {
+  font-size: 14px;
+  font-family: "Arial";
+  color: @red;
+  font-weight: bold;
+  line-height: 0.929;
+  text-align: center;
+  text-decoration: none;
+  transition: @transition;
+}
+
+.sweet-cupcake__slider__ul-item {
+
+}
